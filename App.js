@@ -18,11 +18,11 @@ export default function App() {
           name="Task"
           component={Task}
           options={{
-            headerTintColor:"#f92e6e"
+            headerTintColor:"#800080"
           }}
         />
          <Stack.Screen
-          name="NewTask"
+          name="Novo Lembrete"
           component={NewTask}
           options={{
             headerTintColor:"#f92e6u"

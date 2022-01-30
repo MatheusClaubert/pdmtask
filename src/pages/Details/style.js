@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   padding:10,
   height:50,
   borderBottomWidth: 1,
-  borderBottomColor:"#F92E6A",
+  borderBottomColor:"#800080",
   marginLeft:"auto",
   marginRight:"auto"
  },
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   position:"absolute",
   bottom: 30,
   left:20,
-  backgroundColor:"#F92e6a",
+  backgroundColor:"#800080",
   borderRadius:50,
   justifyContent:"center",
   alignItems: "center"

@@ -37,6 +37,7 @@ return (
               <View style={styles.Tasks}>
                 <TouchableOpacity
                   style={styles.deleteTask}
+
                   onPress={() => {
                     deleteTask(item.id)
                   }}
@@ -66,10 +67,12 @@ return (
           />
           <TouchableOpacity style
             style={styles.buttonNewTask}
-            onPress={() => navigation.navigate("New Task")}
+            onPress={() => navigation.navigate("Novo Lembrete")}
           >
             <Text style={styles.iconButton}>+</Text>
+          
           </TouchableOpacity>
+         
         </View>
       )
-        }   
+}   

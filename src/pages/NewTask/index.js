@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { View, Text, TextInput, TouchableOpacity } from "react-native"
-import database from '../../firebaseconfig.js'
+import database from '../../config/firebaseconfig'
+
 import styles from "./style";
 
 export default function NewTask({ navigation }, props) {
@@ -16,7 +17,7 @@ export default function NewTask({ navigation }, props) {
     }
     return(
         <View style={styles.container}>
-          <Text style={styles.label}>Description</Text>
+          <Text style={styles.label}>Adicionar Lembrete</Text>
           <TextInput
           style={styles.input}
           placeholder="Ex: estudar javascript"
